@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetroCardService should output right 1`] = `
+"[1mTOTAL_COLLECTION[0m	CENTRAL	457	50
+[1mPASSENGER_TYPE_SUMMARY[0m
+ADULT	2
+SENIOR_CITIZEN	1"
+`;
+
+exports[`MetroCardService should output right 2`] = `
+"[1mTOTAL_COLLECTION[0m	AIRPORT	252	100
+[1mPASSENGER_TYPE_SUMMARY[0m
+ADULT	1
+KID	1
+SENIOR_CITIZEN	1"
+`;

@@ -1,0 +1,23 @@
+{
+  "name": "geektrust-challenges-metrocard",
+  "version": "1.0.0",
+  "description": "Solution for geektrust.com Metro Card backend challenge",
+  "main": "geektrust.js",
+  "scripts": {
+    "start": "yarn --silent build && node geektrust.js",
+    "build": "swc src -d dist -q",
+    "test": "jest --silent",
+    "tdd": "jest --watch"
+  },
+  "author": "Mani Kumar Reddy Kancharla <kmanikumarreddy@live.com> (https://www.kmanikumarreddy.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.3.9",
+    "@swc/core": "^1.4.0",
+    "@swc/jest": "^0.2.36",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.16",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}
