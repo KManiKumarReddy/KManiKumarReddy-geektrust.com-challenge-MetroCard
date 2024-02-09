@@ -39,9 +39,9 @@ export default class MetroCardService {
     Object.values(this.#STATIONS).forEach((station) => {
       const { collection, discount, checkinsByPassengerType } = station.summary;
       console.log(
-        `\x1b[1mTOTAL_COLLECTION\x1b[0m\t${
+        `TOTAL_COLLECTION\t${
           station.name
-        }\t${collection}\t${discount}\n\x1b[1mPASSENGER_TYPE_SUMMARY\x1b[0m\n${checkinsByPassengerType
+        }\t${collection}\t${discount}\nPASSENGER_TYPE_SUMMARY\n${checkinsByPassengerType
           .map(({ passengerType, count }) => `${passengerType}\t${count}`)
           .join('\n')}`
       );

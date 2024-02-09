@@ -7,7 +7,7 @@
     "start": "yarn --silent build && node geektrust.js",
     "build": "swc src -d dist -q",
     "test": "jest --silent",
-    "tdd": "jest --watch"
+    "tdd": "jest --watchAll"
   },
   "author": "Mani Kumar Reddy Kancharla <kmanikumarreddy@live.com> (https://www.kmanikumarreddy.com)",
   "license": "ISC",

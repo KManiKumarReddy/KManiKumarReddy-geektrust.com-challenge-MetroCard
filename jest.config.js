@@ -1,7 +1,14 @@
 /** @type {import('jest').Config} */
 const config = {
   transform: {
-    '^.+\\.(t|j)sx?$': '@swc/jest',
+    '^.+\\.(t|j)sx?$': [
+      '@swc/jest',
+      {
+        jsc: {
+          target: 'es2022',
+        },
+      },
+    ],
   },
   rootDir: 'src',
   collectCoverage: true,
